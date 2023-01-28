@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trainee list</title>
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500&family=Poppins:wght@200;400;500;600&display=swap" rel="stylesheet">
+	<style> @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100&display=swap');
+	</style>
+</head>
+<body>
+	<div class="container">
+	<h2>Trainee's Data:</h2>
+		<div class="tab tab-1">
+			<table id="table" border="1" cellpadding="5">
+				<tr>					
+					<th>Name</th>
+					<th>Mobile Number</th>
+					<th>DOB</th>
+					<th>Rating</th>
+				</tr>
+				<tr>
+					<td>Abi</td>
+					<td>9766542637</td>
+					<td>06/06/1999</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>Priya</td>
+					<td>9766542637</td>
+					<td>16/08/1998</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>keerthi</td>
+					<td>9766453780</td>
+					<td>11/12/1997</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>Varsha</td>
+					<td>9876453789</td>
+					<td>01/12/1997</td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>Krithika</td>
+					<td>8756453770</td>
+					<td>11/10/1999</td>
+					<td>5</td>
+				</tr>
+			</table>
+		</div>
+<!----edit table--->
+		<div class="tab tab-2">
+			Name:<input type="text" name="fname" id="name">
+			Mobile Number:<input type="number" id="mobnum">
+			DOB:<input type="date" id="date">
+			Rating:<input type="number" id="rate">
+			
+			<button onclick="addtotable()">Add</button>
+			<button onclick="editRow()">Edit</button>
+			<button onclick="deleteRow()">Remove</button>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+
+.tab{
+	float:left;
+}
+.tab-2{
+	margin-left:350px;
+}
+.tab-2 input{
+	display:block;
+	margin-bottom:10px;
+}
+table tr{
+	border:none;
+}
